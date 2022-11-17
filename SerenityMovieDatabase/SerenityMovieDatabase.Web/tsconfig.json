@@ -1,0 +1,25 @@
+﻿{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "emitBOM": true,
+    "jsx": "react",
+    "noEmitHelpers": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "outFile": "wwwroot/Scripts/site/SerenityMovieDatabase.Web.js",
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "target": "ES6",
+    "typeRoots": [
+      "./node_modules/@types/",
+      "./typings/"
+    ]
+  },
+  "include": [
+    "./Imports/**/*",
+    "./Modules/**/*"
+  ]
+}

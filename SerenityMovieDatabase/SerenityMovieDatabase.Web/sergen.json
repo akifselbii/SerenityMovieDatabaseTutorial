@@ -1,0 +1,52 @@
+{
+  "RootNamespace": "SerenityMovieDatabase",
+  "ServerTypings": {
+    "LocalTexts": true
+  },
+  "Restore": {
+    "Exclude": [
+      "/wwwroot/Scripts/serenity/Serenity.CoreLib*.*"
+    ]
+  },
+  "Connections": [
+    {
+      "Key": "Default",
+      "Tables": [
+        {
+          "Tablename": "mov.Genre",
+          "Identifier": "Genre",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "mov.Movie",
+          "Identifier": "Movie",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "mov.MovieCast",
+          "Identifier": "MovieCast",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "mov.MovieGenres",
+          "Identifier": "MovieGenres",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "mov.Person",
+          "Identifier": "Person",
+          "Module": "Default",
+          "PermissionKey": "Administration:General"
+        }
+      ]
+    }
+  ],
+  "UpgradeInfo": {
+    "InitialType": "Community",
+    "InitialVersion": "6.0.3.0"
+  }
+}
